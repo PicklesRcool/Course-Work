@@ -3,7 +3,7 @@
 
 
 #include "person.h"
-#include "boost/graph/adjacency_list.hpp"
+#include <boost/graph/adjacency_list.hpp>
 
 #include <iostream>
 #include <fstream>
@@ -11,8 +11,7 @@
 using FamilyTreeGraph = boost::adjacency_list<boost::vecS, boost::vecS, boost::directedS,
                                          Person, boost::no_property>;
 
-class FamilyTree
-{
+class FamilyTree {
 public:
     FamilyTree();
     void clear();

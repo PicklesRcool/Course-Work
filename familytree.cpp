@@ -5,9 +5,8 @@ FamilyTree::FamilyTree()
 
 }
 
-std::ifstream& operator>>(std::ifstream &in, FamilyTree &tree)
-{
-    boost::add_vertex()
+std::ifstream& operator>>(std::ifstream &in, FamilyTree &tree) {
+    //boost::add_vertex();
 
     return in;
 }
